@@ -22,6 +22,11 @@ Model IndoBERT dilatih dengan menggunakan data sintetis yang dibuat pada kode `n
 
 Adapun model yang digunakan menggunakan hasil *pretrained* [mBERT-IndoSQuADv2](https://huggingface.co/rizquuula/mBERT-IndoSQuADv2_1691852742-16-2e-06-0.01-5) lalu di *fine-tuning* pada data sintetis tersebut. Hasil evaluasi model menunjukkan skor 55% dan 56% pada metrik *Exact Match* dan *F1 score*. Adapun evaluasi metrik tersebut merujuk kepada metrik yang digunakan dalam mengevaluasi model *Question Answering (QA)* pada dataset SQuAD.
 
+Training dilakukan dengan menggunakan Google Colab dengan spek sebagai berikut:
+* GPU: 1x NVIDIA L4 
+* VRAM: 25 GB
+* RAM: 32 GB
+
 ## Limitasi Model
 Model ini memiliki beberapa limitasi:
 * Ketika list barang beserta jumlah barang yang diberikan makin banyak, maka hasil prediksi nama dan jumlah barang dapat salah. Bisa dicoba dengan kalimat konteks berikut
