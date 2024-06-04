@@ -6,6 +6,8 @@ Untuk mencoba model IndoBERT dalam mendapatkan informasi pengiriman, Anda bisa m
 
 Isi input `konteks` dengan teks yang mengandung informasi pengiriman barang seperti yang disediakan pada contoh.
 
+![alt text](asset/image.png)
+
 ## Instruksi Instalasi
 Instruksi ini ditujukan untuk menjalankan kode `notebook/Item_Information_Retrieval.ipynb`:
 1. Buat python 3.10 virtual environment (bisa menggunakan python-env atau anaconda)
